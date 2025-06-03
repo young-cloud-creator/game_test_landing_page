@@ -93,7 +93,7 @@ sections:
             - "获取支持"
             - "询问疑惑"
           # Upload image to `assets/media/` and reference the filename here
-          # image: build-website.png
+          image: build-website.png
           button:
             text: 联系我们
             url: https://www.nju.edu.cn/
