@@ -71,7 +71,7 @@ sections:
           icon: "custom/game_controller"
           description: 通过模拟玩家操控实现测试，不依赖游戏API
         - name: 智能决策
-          icon: sparkles
+          icon: "custom/smart"
           description: 基于视觉的智能决策模块，根据游戏画面实时做出操作
         # - name: No-Code
         #   icon: code-bracket
@@ -128,8 +128,8 @@ sections:
   #       padding: ["6rem", 0, 0, 0]
   - block: cta-card
     content:
-      title: 了解自动化游戏测试框架的运行原理与特点
-      text: ""
+      title: 了解项目功能与原理
+      text: "自动化游戏测试框架的运行原理与特点"
       button:
         text: 查看介绍文档
         url: "doc/"
