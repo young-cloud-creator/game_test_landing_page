@@ -11,11 +11,10 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Project
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    description: '非侵入式自动化移动游戏测试工具'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,20 +33,16 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "自动化移动游戏测试"
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} NJU'
 
 # Localization
 locale:

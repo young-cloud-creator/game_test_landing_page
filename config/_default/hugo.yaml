@@ -3,17 +3,16 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Creator's Landing Page | Hugo Theme # Website name
-baseURL: 'https://example.com/' # Website URL
+title: '非侵入式自动化移动游戏测试工具' # Website name
+baseURL: 'https://young-cloud-creator.github.io/game_test_landing_page/' # Website URL
 
 ############################
 ## PAGE OPTIONS
 ############################
 
 cascade:
-  # Blog post options
   - _target:
-      path: /blog/**
+      path: /doc/**
       kind: page
     pager: true
     editable: true
@@ -23,14 +22,33 @@ cascade:
     commentable: true
     show_related: true
     share: true
-    # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
     header:
       navbar:
         enable: true
-  # Blog section options
   - _target:
-      path: /blog/*
+      path: /doc/*
+      kind: section
+    # Set the listing view
+    view: date-title-summary
+  
+  - _target:
+      path: /examples/**
+      kind: page
+    pager: true
+    editable: true
+    hide_date: false
+    show_date_updated: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    share: true
+    show_breadcrumb: false
+    header:
+      navbar:
+        enable: true
+  - _target:
+      path: /examples/*
       kind: section
     # Set the listing view
     view: date-title-summary
@@ -39,8 +57,8 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: zh-CN
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
