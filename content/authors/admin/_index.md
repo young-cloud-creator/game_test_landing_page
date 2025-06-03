@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Developer Team
+title: Development Team
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
