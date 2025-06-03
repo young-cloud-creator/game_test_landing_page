@@ -132,7 +132,7 @@ sections:
       # text: As easy as 1, 2, 3!
       button:
         text: 查看文档
-        url: "examples/"
+        url: "doc/"
     design:
       card:
         # Card background color (CSS class)
