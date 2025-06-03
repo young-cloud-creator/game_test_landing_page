@@ -19,10 +19,10 @@ cascade:
     hide_date: false
     show_date_updated: true
     reading_time: true
-    commentable: true
-    show_related: true
-    share: true
-    show_breadcrumb: false
+    commentable: false
+    show_related: false
+    share: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true
@@ -40,10 +40,10 @@ cascade:
     hide_date: false
     show_date_updated: true
     reading_time: true
-    commentable: true
-    show_related: true
-    share: true
-    show_breadcrumb: false
+    commentable: false
+    show_related: false
+    share: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true

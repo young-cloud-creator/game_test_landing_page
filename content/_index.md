@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: 非侵入式自动化移动游戏测试框架
-      text: 自动化. 非侵入. 智能决策.
+      text: 自动化 非侵入 智能决策
       primary_action:
         text: 查看演示
         url: "examples/"
@@ -62,15 +62,15 @@ sections:
     id: features
     content:
       title: 特性
-      text: 从玩家角度执行自动化游戏测试
+      text: 不依赖游戏内部API的自动化测试方案
       items:
-        - name: Optimized SEO
+        - name: 自动化
           icon: magnifying-glass
           description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+        - name: 非侵入
           icon: bolt
           description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+        - name: 智能决策
           icon: sparkles
           description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
         # - name: No-Code

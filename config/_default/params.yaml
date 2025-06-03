@@ -6,24 +6,24 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: sky
 
 # SEO
-marketing:
-  seo:
-    site_type: Project
-    local_business_type: ''
-    org_name: ''
-    description: '非侵入式自动化移动游戏测试工具'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+# marketing:
+#   seo:
+#     site_type: Project
+#     local_business_type: ''
+#     org_name: ''
+#     description: ''
+#   analytics:
+#     google_analytics: ''
+#     baidu_tongji: ''
+#     plausible: ''
+#     fathom: ''
+#     pirsch: ''
+#   verification:
+#     google: ''
+#     baidu: ''
 
 # Site header
 header:
@@ -37,14 +37,15 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     show_search: true
-    show_theme_chooser: true
+    # show_theme_chooser: true
 
 # Site footer
-footer:
-  copyright:
-    notice: '© {year} NJU'
+# footer:
+#   copyright:
+#     notice: '© {year} NJU'
 
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+  address_format: zh
