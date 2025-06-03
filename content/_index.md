@@ -34,7 +34,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: bg.png
           filters:
             brightness: 0.5
   # - block: stats
@@ -126,16 +126,16 @@ sections:
   #     spacing:
   #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
   #       padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: 查看介绍文档
-      # text: As easy as 1, 2, 3!
-      button:
-        text: 查看文档
-        url: "doc/"
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+  # - block: cta-card
+  #   content:
+  #     title: 查看介绍文档
+  #     # text: As easy as 1, 2, 3!
+  #     button:
+  #       text: 查看文档
+  #       url: "doc/"
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
