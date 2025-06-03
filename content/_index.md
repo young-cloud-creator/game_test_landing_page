@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: 非侵入式自动化移动游戏测试框架
-      text: 自动化 非侵入 智能决策
+      text: '[自动化](#features) · [非侵入](#features) · [智能决策](#features)'
       primary_action:
         text: 查看演示
         url: "examples/"
@@ -65,14 +65,14 @@ sections:
       text: 不依赖游戏内部API的自动化测试方案
       items:
         - name: 自动化
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
+          icon: robot
+          description: 无需人工录制游戏操作
         - name: 非侵入
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
+          description: 通过模拟玩家操控实现测试，不依赖游戏API
         - name: 智能决策
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
+          description: 基于视觉的智能决策模块，根据游戏画面实时做出操作
         # - name: No-Code
         #   icon: code-bracket
         #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
@@ -126,16 +126,16 @@ sections:
   #     spacing:
   #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
   #       padding: ["6rem", 0, 0, 0]
-  # - block: cta-card
-  #   content:
-  #     title: 查看介绍文档
-  #     # text: As easy as 1, 2, 3!
-  #     button:
-  #       text: 查看文档
-  #       url: "doc/"
-  #   design:
-  #     card:
-  #       # Card background color (CSS class)
-  #       css_class: "bg-primary-700"
-  #       css_style: ""
+  - block: cta-card
+    content:
+      title: 项目介绍
+      text: 了解自动化游戏测试框架的运行原理与特点
+      button:
+        text: 查看文档
+        url: "doc/"
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: "bg-primary-700"
+        css_style: ""
 ---

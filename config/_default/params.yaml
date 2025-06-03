@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: sky
+  color: indigo
 
 # SEO
 # marketing:
@@ -46,6 +46,6 @@ header:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006-01-02'
+  time_format: '15:04'
   address_format: zh
