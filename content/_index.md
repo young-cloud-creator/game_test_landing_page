@@ -65,10 +65,10 @@ sections:
       text: 不依赖游戏内部API的自动化测试方案
       items:
         - name: 自动化
-          icon: robot
+          icon: "custom/robot"
           description: 无需人工录制游戏操作
         - name: 非侵入
-          icon: bolt
+          icon: "custom/game_controller"
           description: 通过模拟玩家操控实现测试，不依赖游戏API
         - name: 智能决策
           icon: sparkles
@@ -128,10 +128,10 @@ sections:
   #       padding: ["6rem", 0, 0, 0]
   - block: cta-card
     content:
-      title: 项目介绍
-      text: 了解自动化游戏测试框架的运行原理与特点
+      title: 了解自动化游戏测试框架的运行原理与特点
+      text: ""
       button:
-        text: 查看文档
+        text: 查看介绍文档
         url: "doc/"
     design:
       card:

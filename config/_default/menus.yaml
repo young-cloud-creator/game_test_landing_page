@@ -16,8 +16,8 @@ main:
     weight: 40
     hasChildren: true
   - parent: 资源
-    name: 文档
+    name: 介绍文档
     url: doc/
   - parent: 资源
-    name: 演示
+    name: 项目演示
     url: examples/
