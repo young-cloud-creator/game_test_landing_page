@@ -3,21 +3,21 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: home
+  - name: 主页
     url: /#top
     weight: 10
-  - name: features
+  - name: 特性
     url: /#features
     weight: 20
-  - name: contact
+  - name: 联系我们
     url: /#contact
     weight: 30
-  - name: resources
+  - name: 资源
     weight: 40
     hasChildren: true
-  - parent: resources
-    name: document
+  - parent: 资源
+    name: 文档
     url: doc/
-  - parent: resources
-    name: examples
+  - parent: 资源
+    name: 演示
     url: examples/

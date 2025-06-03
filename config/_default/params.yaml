@@ -33,7 +33,7 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: "自动化移动游戏测试"
+      text: ""
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     show_search: true
