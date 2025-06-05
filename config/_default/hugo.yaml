@@ -22,6 +22,7 @@ cascade:
     commentable: false
     show_related: false
     share: false
+    profile: false
     show_breadcrumb: true
     header:
       navbar:
@@ -43,6 +44,7 @@ cascade:
     commentable: false
     show_related: false
     share: false
+    profile: false
     show_breadcrumb: true
     header:
       navbar:
