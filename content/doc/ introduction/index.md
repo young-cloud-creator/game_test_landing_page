@@ -2,6 +2,7 @@
 title: 了解项目原理
 summary: 自动化游戏测试框架的基本原理和整体框架设计
 weight: 1
+date: 2024-06-11
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
