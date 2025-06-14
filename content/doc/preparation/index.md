@@ -1,7 +1,7 @@
 ---
 title: 辅助工具设计
 summary: 界面标注工具和画面校准工具
-weight: 9
+weight: 2
 date: 2024-06-14
 
 # Featured image
