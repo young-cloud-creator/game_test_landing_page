@@ -15,7 +15,7 @@ cascade:
       path: /doc/**
       kind: page
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: true
     reading_time: true
@@ -37,7 +37,7 @@ cascade:
       path: /examples/**
       kind: page
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: true
     reading_time: true
@@ -69,8 +69,8 @@ removePathAccents: true
 ############################
 
 build:
-  writeStats: true
-enableGitInfo: false
+  writeStats: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10
