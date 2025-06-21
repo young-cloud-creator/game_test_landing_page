@@ -61,7 +61,7 @@ sections:
           image: contact.png
           button:
             text: 联系我们
-            url: ""
+            url: "https://seg-models.group/#/"
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
